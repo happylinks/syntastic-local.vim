@@ -33,7 +33,7 @@ fun! s:LetEslintExec (eslint_exec)
 endfun
 
 " if flow_exec found successfully, set it for the current buffer
-fun! s:LetFlowExec (eslint_exec)
+fun! s:LetFlowExec (flow_exec)
   if a:flow_exec isnot ''
     let b:syntastic_javascript_flow_exec = a:flow_exec
   endif
