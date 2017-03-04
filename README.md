@@ -8,7 +8,7 @@ Installation Instructions
 Using [vim plugged](https://github.com/junegunn/vim-plug) you just need to add:
 
 ```
-Plug 'happylinks/syntastic-local-eslint.vim'
+Plug 'happylinks/syntastic-local.vim'
 ```
 
 Using [pathogen](https://github.com/tpope/vim-pathogen) you just execute this:
